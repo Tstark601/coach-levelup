@@ -13,6 +13,8 @@ services:
         sync: false
       - key: GEMINI_API_KEY
         sync: false
+      - key: PYTHON_VERSION
+        value: "3.12.0"
       - key: FRONTEND_URL
         value: "*"
       - key: ENVIRONMENT
